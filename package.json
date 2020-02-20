@@ -1,0 +1,14 @@
+{
+  "name": "crowdfounding",
+  "version": "1.0.0",
+  "description": "Ellie Birch",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Drake Ju",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^4.4.1"
+  }
+}
