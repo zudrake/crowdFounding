@@ -1,5 +1,71 @@
+body {
+  font-family: sans-serif;
+  background-color: #ffffff;
+}
+hr {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.mainImg {
+  /* Sizing */
+  width: 100%;
+  height: 100vh;
+
+  /* Flexbox stuff */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  /* Text styles */
+  text-align: center;
+  color: white; /* ADD THIS LINE */
+
+  /* Background styles */
+  background-image: url("/img/111.jpg");
+  background-size: contain;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.mainImg h1 {
+  /* Text styles */
+  font-size: 5em;
+
+  /* Margins */
+  margin-top: 0;
+  margin-bottom: 0.5em;
+}
+
+.mainImg .btn {
+  /* Positioning and sizing */
+  display: block;
+  width: 200px;
+
+  /* Padding and margins */
+  padding: 1em;
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+
+  /* Text styles */
+  color: white;
+  text-decoration: none;
+  font-size: 1.5em;
+
+  /* Border styles */
+  border: 3px solid white;
+  border-radius: 20px;
+
+  /* Background styles */
+  background-color: rgba(183, 107, 31, 0.8);
+}
+
+.nav-item {
+  padding-left: 50px;
+  padding-right: 50px;
+  border-bottom: solid 1px transparent;
+}
 .jumbotron {
-  margin: 0;
-  padding: 30px;
-  color: black;
+  margin-bottom: 0;
 }

@@ -14,16 +14,16 @@
 
 <body>
     <!-- header -->
-    <header class="jumbotron">
-
+    <header>
         <!-- navbar -->
-        <nav class="navbar navbar-expand-sm navbar-light sticky-top">
-            <div class="container">
-                <a class="navbar-brand" href="index.html"><img src="img/logoPNG.png" height="ml-auto" width="100" /></a>
-                <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#nucampNavbar">
+        <div class="container">
+            <nav class="navbar navbar-expand-sm navbar navbar-light sticky-top">
+                <a class="navbar-brand" href="index.html"><img class="d-sm-none d-md-block" src="img/logoPNG.png"
+                        height="80px" width="80px" /></a>
+                <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navB">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-                <div class="collapse navbar-collapse" id="nucampNavbar">
+                <div class="collapse navbar-collapse " id="navB">
                     <ul class="navbar-nav">
                         <li class="nav-item active">
                             <a class="nav-link" href="#"> Home</a>
@@ -32,74 +32,127 @@
                             <a class="nav-link" href="aboutus.html"> About</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="contactus.html"> Contact</a>
+                            <a class="nav-link" href="contactus.html">
+                                Contact</a>
                         </li>
                     </ul>
+                </div>
+            </nav>
+            <hr>
+        </div>
 
+    </header>
+
+    <!-- body -->
+    <div class="jumbotron jumbotron-fluid">
+        <div class="container">
+            <div class="mainImg">
+                <div class="mainImg-inner">
+                    <h1>For Mordern Parents</h1>
+                    <h2>Finally,<br> a modern, <br> practical foam play mat can be part of your home without sacrificing
+                        style.
+                    </h2>
+                    <a href="founding.html" class="btn">Go Founding</a>
                 </div>
             </div>
-        </nav>
-    </header>
-    <!-- body-body -->
-    <div class="jumbotron">
-        <div class="container-fluid">
-            <!-- carousel -->
-            <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-                <ol class="carousel-indicators">
-                    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-                    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-                    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-                </ol>
-                <div class="carousel-inner">
-                    <div class="carousel-item active">
-                        <div class="row justify-content-md-center">
+            <hr>
+        </div>
+    </div>
+    <div class=" jumbotron jumbotron-fluid">
+        <div class="container">
+            <div class="row">
 
-                            <img class="col-6 d-block w-100%" src="/img/IMG_4945.jpeg" alt="First slide">
-                            <div class="card" style="width: 50%;">
-                                <img class="card-img-top" src="img/IMG_0023.jpeg" alt="Card image cap">
+
+
+                <div class="col-6">
+                    <div class=" card mb-3" style="max-width: 540px;">
+                        <div class="row no-gutters">
+                            <div class="col-md-4">
+                                <img src="/img/IMG_0023.jpeg" class="card-img" alt="...">
+                            </div>
+                            <div class="col-md-8">
                                 <div class="card-body">
-                                    <p class="card-text">Every Baby need this.</p>
+                                    <h5 class="card-title">Birch Mat (White)
+                                    </h5>
+                                    <p class="card-text">Two Play Mats joined are 8 ft x 6 ft // 48 square
+                                        feet.<br>Additional sets may be joined together endlessly to create a larger
+                                        play area. 
+                                    </p>
+                                    <a href="#" class="btn btn-primary">Go somewhere</a>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div class="carousel-item">
-                        <img class="d-block w-100" src="..." alt="Second slide">
-                    </div>
-                    <div class="carousel-item">
-                        <img class="d-block w-100" src="..." alt="Third slide">
+                </div>
+                <div class="col-6">
+                    <div class="card mb-3" style="max-width: 540px;">
+                        <div class="row no-gutters">
+                            <div class="col-md-4">
+                                <img src="/img/IMG_0024.jpeg" class="card-img" alt="...">
+                            </div>
+                            <div class="col-md-8">
+                                <div class="card-body">
+                                    <h5 class="card-title">Saddle Mat (Brown)
+                                    </h5>
+                                    <p class="card-text">One Play Mat is 4 ft x 6 ft // 24 square feet.
+                                        <br>Includes six
+                                        2 ft x 2 ft tiles and twelve edging bonders which may be applied to the outer
+                                        edges to create a finished look. 
+
+                                    </p>
+                                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
-            <!-- other body -->
-            <hr>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum illo sint, incidunt, voluptas nisi
-                laboriosam itaque perferendis possimus, tenetur eveniet saepe! Officia et unde illo architecto in natus
-                voluptate esse.</p>
         </div>
     </div>
+    <div class="container">
+        <div class="row ">
+            <div class="col align-self-center">
+                <h2>
+                    SUBSCRIBE
+                </h2>
+                Sign up to get the latest on sales, new releases and more …
+            </div>
+            <hr>
+            <div class="input-group mb-3">
+                <input type="text" class="form-control" placeholder="E-Mail Address" aria-label="E-Mail Address"
+                    aria-describedby="basic-addon2">
+                <div class="input-group-append">
+                    <button class="btn btn-outline-secondary" type="button">Submit</button>
+                </div>
+            </div>
+        </div>
     </div>
     <!-- footer -->
-    <footer class="jumbotron">
-        <div class="container-fluid">
+    <footer class="jumbotron jumbotron-fluid">
+        <div class="container">
             <div class="row">
-                <div class="col-3">explore
-                    <hr>
-                    <div>
-                        <ul>
-                            <li>
-                                home
-                            </li>
-                            <li>
-                                about
-                            </li>
-                            <li>
-                                somelink
-                            </li>
-                        </ul>
-                    </div>
+                <div class="col-6">
+                    <h2>
+                        Ellie Brich
+                    </h2>
                 </div>
-                <div class="col-3">about
+                <div class="col-2">
+                    explore
+                    <hr>
+                    <ul>
+                        <li>
+                            home
+                        </li>
+                        <li>
+                            about
+                        </li>
+                        <li>
+                            somelink
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-2">
+                    about
                     <hr>
                     <div>
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero, culpa ratione? Asperiores
@@ -107,25 +160,14 @@
                         pariatur qui culpa molestiae modi?
                     </div>
                 </div>
-                <div class="col-3">news letter
-                    <hr>
-                    <div class="input-group mb-3">
-                        <input type="text" class="form-control" placeholder="E-Mail Address" aria-label="E-Mail Address"
-                            aria-describedby="basic-addon2">
-                        <div class="input-group-append">
-                            <button class="btn btn-outline-secondary" type="button">Submit</button>
-                        </div>
-                    </div>
-
-                </div>
-                <div class="col-3">contact
+                <div class="col-2">contact
                     <hr>
                     <ul>
                         <li>
                             Blog
                         </li>
                         <li>
-                            Instagram
+                            <a href="https://www.instagram.com/elliebirchshop">Instagram</a>
                         </li>
                         <li>
                             Facebook
@@ -137,10 +179,13 @@
                 </div>
             </div>
         </div>
+        </div>
     </footer>
     <div class="row d-flex justify-content-center">
         create by Drake Ju
     </div>
+    <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
+    <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
     <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
 </body>
 
